@@ -15,4 +15,4 @@ while n>0:
     print("CTRL + z for exit")
     cou = input("\033[1;32m Enter your country code\033[1;34m:\033[1;31m➤")
     num = input("\033[1;32m Enter your number \033[1;34m:\033[1;31m➤")
-    os.system("python2 tracker.py"+" "+cou+num)
+    os.system("python tracker.py"+" "+cou+num)
